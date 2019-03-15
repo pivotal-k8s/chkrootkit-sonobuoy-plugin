@@ -12,7 +12,7 @@ spec:
     value: /tmp/results
   - name: CHROOT_DIR
     value: /node
-  # yeah ... that image not a typo ... :(
+  # yeah ... that image name is not a typo ... :(
   image: gcr.io/cf-london-servces-k8s/chkrootkit-sonobuoy-plugin:latest
   imagePullPolicy: Always
   name: sonobuoy-chkrootkit
