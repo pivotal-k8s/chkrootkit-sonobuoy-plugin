@@ -16,8 +16,6 @@ spec:
   image: gcr.io/cf-london-servces-k8s/chkrootkit-sonobuoy-plugin:latest
   imagePullPolicy: Always
   name: sonobuoy-chkrootkit
-  securityContext:
-    privileged: true
   volumeMounts:
   - mountPath: /tmp/results
     name: results
